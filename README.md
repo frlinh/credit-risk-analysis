@@ -40,7 +40,7 @@ Performed data analysis on credit card credit dataset from LendingClubs, a peer-
 - The recall of high-risk classification is 0.69
 - The recall of low-risk classification is 0.40
 
-### <u>Ensemble Classifier</u>
+### <u>Easy Ensemble Classifier</u>
 
 ![Ensembling](https://github.com/frlinh/credit-risk-analysis/blob/31ec26b79ae17c4fe7468609ef09a0b1548261e2/Resources/Ensembling.png)
 - The balanced accuracy score is 0.93
@@ -48,3 +48,4 @@ Performed data analysis on credit card credit dataset from LendingClubs, a peer-
 - The recall of low-risk classification is 0.94
 
 # <u>Conclusion</u>
+The Easy Ensemble Classifier is the best model to use to predict credit risk because it had the highest balanced accuracy score of 0.93.  The other models all had a balanced accuracy score below 0.64.  The recall of high-risk and low-risk classifications is also above 0.92, compared to the other models which were all below 0.69.
